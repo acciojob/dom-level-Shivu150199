@@ -1,9 +1,9 @@
 //your JS code here. If required.
 const levelElement=socument.getElementbyId('level')
 let level=1;
-while(false){
+while(true){
 if(levelElement.parentNode){
-	if(levelElement.tagName=="HTML"){
+	if(levelElement.tagName=="html"){
 	break;
 	}
 	levelElement=levelElement.parentNode
